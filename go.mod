@@ -1,13 +1,12 @@
 module github.com/crhntr/template
 
 go 1.23
-
-toolchain go1.23.3
+toolchain go1.24.1
 
 require (
 	github.com/crhntr/dom v0.1.0-dev.7
 	github.com/stretchr/testify v1.10.0
-	golang.org/x/net v0.33.0
+	golang.org/x/net v0.38.0
 	golang.org/x/tools v0.28.0
 )
 
